@@ -1,8 +1,15 @@
-### Char-to-Homescreen-Icon
+# Char-to-Homescreen-Icon
 
 This is a simple CGI server based on [flup](https://pypi.python.org/pypi/flup?). It works with iOS App [Workflow](http://workflow.is/). It converts any character into an image.
 
 Download workflow: [https://workflow.is/workflows/184ad62a65714c93a00169d3e668c74e](https://workflow.is/workflows/184ad62a65714c93a00169d3e668c74e).
+
+## Server Dependency
+
+Install through pip:
+```sh
+sudo pip install flup pillow
+```
 
 ## Server Installation
 
